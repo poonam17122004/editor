@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --danger-color: #ef4444;
+    --danger-hover: #dc2626;
+    --light-bg: #ffffff;
+    --dark-bg: #1f2937;
+    --light-text: #f3f4f6;
+    --dark-text: #1f2937;
+  }
+  
+  .buttons-container {
+    display: flex;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+  
+  .button-wrapper {
+    display: flex;
+  }
+  
+  .reset-button,
+  .run-query-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    height: 2.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+  }
+  
+  .reset-button {
+    background-color: var(--danger-color);
+  }
+  
+  .reset-button:hover {
+    background-color: var(--danger-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .run-query-button {
+    background-color: var(--primary-color);
+  }
+  
+  .run-query-button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-icon {
+    stroke: currentColor;
+  }
+  
+  .button-text {
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+  
+  

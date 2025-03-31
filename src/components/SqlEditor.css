@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --light-bg: #ffffff;
+    --dark-bg: #1f2937;
+    --light-text: #f3f4f6;
+    --dark-text: #1f2937;
+    --light-border: #e5e7eb;
+    --dark-border: #4b5563;
+    --light-header: #f9fafb;
+    --dark-header: #111827;
+  }
+  
+  .sql-editor-container {
+    border: 1px solid var(--light-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+  }
+  
+  .dark-theme.sql-editor-container {
+    border-color: var(--dark-border);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .editor-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    font-family: 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .editor-title {
+    font-size: 1rem;
+    letter-spacing: 0.025em;
+  }
+  
+  /* Customize ACE editor scrollbar for dark mode compatibility */
+  .ace_scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .ace_scrollbar::-webkit-scrollbar-track {
+    background: var(--light-bg);
+  }
+  
+  .dark-theme .ace_scrollbar::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+  }
+  
+  .ace_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 4px;
+  }
+  
+  .dark-theme .ace_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #475569;
+  }
+  
+  /* Style the gutter in light/dark mode */
+  .light-theme .ace_gutter {
+    background-color: #f8fafc !important;
+    color: #64748b !important;
+  }
+  
+  .dark-theme .ace_gutter {
+    background-color: #1e293b !important;
+    color: #94a3b8 !important;
+  }
+  
+  /* Improve editor appearance */
+  .ace_editor {
+    font-family: 'Source Code Pro', 'Menlo', 'Monaco', monospace !important;
+  }
+  
+  .light-theme .ace_editor {
+    background-color: #ffffff !important;
+  }
+  
+  .dark-theme .ace_editor {
+    background-color: #0f172a !important;
+  }
+  

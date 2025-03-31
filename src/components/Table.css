@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --light-bg: #ffffff;
+  --dark-bg: #1f2937;
+  --light-text: #f3f4f6;
+  --dark-text: #1f2937;
+  --light-border: #e5e7eb;
+  --dark-border: #4b5563;
+}
+
+/* Table.css */
+.table-wrapper {
+  font-family: "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  padding: 0 1rem;
+  color: var(--dark-text);
+}
+
+.dark-theme .table-wrapper {
+  color: var(--light-text);
+}
+
+.output-section {
+  margin-top: 1.5rem;
+}
+
+.output-header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.output-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.025em;
+}
+
+.output-icon {
+  stroke: currentColor;
+}
+
+.results-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.dark-theme .results-info {
+  color: #94a3b8;
+}
+
+.csv-link {
+  text-decoration: none;
+}
+
+.export-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.export-button:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.export-icon {
+  stroke: currentColor;
+}
+
+.export-button-text {
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.no-query-placeholder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  font-weight: 500;
+  color: #64748b;
+  font-size: 1.125rem;
+  padding: 0 1.5rem;
+  background-color: var(--light-bg);
+  border: 1px solid var(--light-border);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  gap: 1rem;
+}
+
+.dark-theme .no-query-placeholder {
+  background-color: var(--dark-bg);
+  border-color: var(--dark-border);
+  color: #94a3b8;
+}
+
+.placeholder-icon {
+  stroke: #64748b;
+}
+
+.dark-theme .placeholder-icon {
+  stroke: #94a3b8;
+}
+
+.placeholder-text {
+  font-family: "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+}
+
+.random-data-indicator {
+  font-size: 0.8rem;
+  color: #f59e0b;
+  margin-left: 8px;
+  font-weight: normal;
+}
+
+.random-data-note {
+  font-size: 0.75rem;
+  color: #f59e0b;
+  margin-left: 12px;
+  font-style: italic;
+}
