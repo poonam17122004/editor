@@ -2,17 +2,17 @@
 
 ## 📚 Description
 
-Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application..
+Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.
 
 This is a REACT SQL Editor built using ReactJs and TailwindCSS.
 
 ## 👨‍💻 Live Demo
 
-<a href="https://github.com/sambitos23/react-sql-editor" target="blank">
-<img src="https://img.shields.io/website?url=https://www.codingspace.codes&logo=github&style=flat-square" />
+<a href="https://github.com/poonam17122004/editor" target="blank">
+<img src="https://img.shields.io/website?url=https://poonam17122004.github.io/editor/&logo=github&style=flat-square" />
 </a>
 
-Try out the website : [REACT SQL Editor](https://react-sql-editor-beta.vercel.app/)
+Try out the website : [REACT SQL Editor](https://poonam17122004.github.io/editor/)
 
 ## 👨‍🔧 Tech Stack
 
@@ -61,7 +61,7 @@ Mobile performance view
 ## 🪜 Steps I took to optimize the page load time
 
 - Used Lighthouse DevTools Extension to find the performance issues and fix them using their actionable suggestion.
-- Used vercel to deploy this website to leverage its Vercel Edge Network compression that results in the better performance.
+- Used GitHub Pages to deploy this website for better performance and reliability.
 
 ## Available Scripts
 
@@ -87,7 +87,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run deploy`
+
+Deploys the app to GitHub Pages. The app will be available at https://poonam17122004.github.io/editor/
 
 ## 🚀 Project Output
 
