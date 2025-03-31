@@ -6,6 +6,10 @@ Create, design and implement a web-based application capable of running SQL quer
 
 This is a REACT SQL Editor built using ReactJs and TailwindCSS, featuring a modern UI with dark/light mode support and real-time query execution.
 
+## 🎥 Demo Video
+
+Watch the application demo: [Demo Video](https://drive.google.com/file/d/1qt7rk7FQ-Q8qBvmcgv_JYvkkQHLH_Sfd/view?usp=sharing)
+
 ## 👨‍💻 Live Demo
 
 <a href="https://github.com/poonam17122004/editor" target="blank">
@@ -17,7 +21,7 @@ Try out the website : [REACT SQL Editor](https://poonam17122004.github.io/editor
 ## 👨‍🔧 Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## ⚙️ Dependencies
@@ -56,6 +60,9 @@ src/
 
 View the detailed ER diagram of the application: [ER Diagram](https://drive.google.com/file/d/1qcsPnwbwmsDy-MuuXtf4OjgJkmN5cCpO/view?usp=sharing)
 
+## 🔄 Flow Diagram
+
+View the application flow diagram: [Flow Diagram](https://drive.google.com/file/d/13x2S_knS2S8XLZqcmfok7ShAWMOCx9Sg/view?usp=sharing)
 
 ## 👨‍💻 Features
 
@@ -137,7 +144,11 @@ Deploys the app to GitHub Pages.
 
 ## 🚀 Project Output
 
-![Homepage](Screenshot/main_project.PNG)
+### Light Theme
+![Light Theme](https://drive.google.com/file/d/1hMZyT0g7H5tRqt0XnHjnbqK0L2PbXr-E/view?usp=sharing)
+
+### Dark Theme
+![Dark Theme](https://drive.google.com/file/d/16Z8SKCOTo1GLSKsLHQJy2oVAMDDfSXnm/view?usp=sharing)
 
 ## 🔄 Data Flow
 
