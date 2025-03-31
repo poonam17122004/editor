@@ -10,6 +10,10 @@ This is a REACT SQL Editor built using ReactJs, featuring a modern UI with dark/
 
 Watch the application demo: [Demo Video](https://drive.google.com/file/d/1qt7rk7FQ-Q8qBvmcgv_JYvkkQHLH_Sfd/view?usp=sharing)
 
+## 📖 Documentation
+
+View the detailed documentation: [Documentation](https://drive.google.com/file/d/1xkecOkCCDzsdEXrOMhD7Y42f0h9EAQ_K/view?usp=sharing)
+
 ## 👨‍💻 Live Demo
 
 <a href="https://github.com/poonam17122004/editor" target="blank">
