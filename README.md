@@ -17,7 +17,7 @@ Try out the website : [REACT SQL Editor](https://poonam17122004.github.io/editor
 ## 👨‍🔧 Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## ⚙️ Dependencies
@@ -51,6 +51,10 @@ src/
 ├── ThemeContext.js          # Theme management
 └── index.js                 # Application entry point
 ```
+
+## 📊 Entity Relationship Diagram
+
+View the detailed ER diagram of the application: [ER Diagram](https://drive.google.com/file/d/1qcsPnwbwmsDy-MuuXtf4OjgJkmN5cCpO/view?usp=sharing)
 
 ## 👨‍💻 Features
 
