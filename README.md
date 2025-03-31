@@ -144,10 +144,10 @@ Deploys the app to GitHub Pages.
 ## 🚀 Project Output
 
 ### Light Theme
-![Light Theme](https://drive.google.com/file/d/1hMZyT0g7H5tRqt0XnHjnbqK0L2PbXr-E/view?usp=sharing)
+![Light Theme](https://drive.google.com/uc?export=view&id=1hMZyT0g7H5tRqt0XnHjnbqK0L2PbXr-E)
 
 ### Dark Theme
-![Dark Theme](https://drive.google.com/file/d/16Z8SKCOTo1GLSKsLHQJy2oVAMDDfSXnm/view?usp=sharing)
+![Dark Theme](https://drive.google.com/uc?export=view&id=16Z8SKCOTo1GLSKsLHQJy2oVAMDDfSXnm)
 
 ## 🔄 Data Flow
 
