@@ -1,0 +1,132 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Light Theme (Default) */
+.light-theme {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --header-bg: #f3f4f6;
+    --border-color: #e5e7eb;
+    --editor-bg: #f9fafb;
+    --button-bg: #4f46e5;
+    --button-text: #ffffff;
+    --button-hover: #4338ca;
+    --sidebar-bg: #f3f4f6;
+    --table-header-bg: #f3f4f6;
+    --table-row-hover: #f9fafb;
+    --table-border: #e5e7eb;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+.dark-theme {
+    --bg-color: #1f2937;
+    --text-color: #e5e7eb;
+    --header-bg: #111827;
+    --border-color: #374151;
+    --editor-bg: #111827;
+    --button-bg: #4f46e5;
+    --button-text: #ffffff;
+    --button-hover: #6366f1;
+    --sidebar-bg: #111827;
+    --table-header-bg: #111827;
+    --table-row-hover: #374151;
+    --table-border: #4b5563;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.main-content {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .main-content {
+        width: 75%;
+    }
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.predefined-query-section {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .predefined-query-section {
+        width: 25%;
+    }
+}
+
+.sql-editor-section {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .sql-editor-section {
+        width: 75%;
+    }
+}
+
+.input-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+    width: 7rem;
+    background-color: var(--header-bg);
+    color: var(--text-color);
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 100%;
+    background-color: var(--sidebar-bg);
+}
+
+@media (min-width: 1024px) {
+    .sidebar {
+        width: 25%;
+    }
+}
+
+/* Added for dark/light mode support */
+.no-query-placeholder {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
