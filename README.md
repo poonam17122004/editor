@@ -4,7 +4,7 @@
 
 Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.
 
-This is a REACT SQL Editor built using ReactJs and TailwindCSS, featuring a modern UI with dark/light mode support and real-time query execution.
+This is a REACT SQL Editor built using ReactJs, featuring a modern UI with dark/light mode support and real-time query execution.
 
 ## 🎥 Demo Video
 
@@ -21,7 +21,6 @@ Try out the website : [REACT SQL Editor](https://poonam17122004.github.io/editor
 ## 👨‍🔧 Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## ⚙️ Dependencies
