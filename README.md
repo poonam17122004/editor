@@ -56,6 +56,7 @@ src/
 
 View the detailed ER diagram of the application: [ER Diagram](https://drive.google.com/file/d/1qcsPnwbwmsDy-MuuXtf4OjgJkmN5cCpO/view?usp=sharing)
 
+
 ## 👨‍💻 Features
 
 :white_check_mark: **SQL Query Editor**
