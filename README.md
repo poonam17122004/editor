@@ -4,7 +4,7 @@
 
 Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.
 
-This is a REACT SQL Editor built using ReactJs and TailwindCSS.
+This is a REACT SQL Editor built using ReactJs and TailwindCSS, featuring a modern UI with dark/light mode support and real-time query execution.
 
 ## 👨‍💻 Live Demo
 
@@ -18,79 +18,140 @@ Try out the website : [REACT SQL Editor](https://poonam17122004.github.io/editor
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## ⚙️ Dependencies
 
-- **_react-ace_**
-- **_react-csv_**
-- **_react-hot-toast_**
-- **_tailwind-scrollbar-hide_**
+- **_react-ace_**: Code editor for SQL queries
+- **_react-csv_**: CSV export functionality
+- **_react-hot-toast_**: Toast notifications
+- **_tailwind-scrollbar-hide_**: Custom scrollbar styling
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/
+│   ├── DataStore/           # JSON data files
+│   │   ├── customers.json
+│   │   ├── suppliers.json
+│   │   ├── products.json
+│   │   └── select_customer.json
+│   ├── TableDrawer/         # Table metadata components
+│   │   ├── DataDraw.js
+│   │   ├── TablePopup.js
+│   │   ├── TableStructure.js
+│   │   └── TableStructure.css
+│   ├── Buttons.js           # Query execution controls
+│   ├── PredefinedQuery.js   # Preset SQL queries
+│   ├── SqlEditor.js         # SQL code editor
+│   ├── Table.js             # Results display
+│   └── TableUI.js           # Table UI components
+├── App.js                    # Main application component
+├── ThemeContext.js          # Theme management
+└── index.js                 # Application entry point
+```
 
 ## 👨‍💻 Features
 
-:white_check_mark: Users can get data of any of the predefined SQL queries on the left Sidebar menu.\
-:white_check_mark: Users can view all the table column on Right Sidebar menu.\
-:white_check_mark: Users can check all the table value on clicking Table name of Right Sidebar menu.\
-:white_check_mark: Users can download the data in CSV Format in just one click.\
-:white_check_mark: Users can see query runtime in milliseconds(ms).
+:white_check_mark: **SQL Query Editor**
+- Syntax highlighting
+- Auto-completion
+- Real-time query execution
+- Error handling with toast notifications
+
+:white_check_mark: **Predefined Queries**
+- Quick access to common queries
+- Sample queries for learning
+- Customizable preset queries
+
+:white_check_mark: **Table Management**
+- View table structure
+- Explore table data
+- Sort and filter results
+- CSV export functionality
+
+:white_check_mark: **UI/UX Features**
+- Dark/Light mode support
+- Responsive design
+- Toast notifications
+- Loading states
+- Error handling
 
 ## ✍️ Predefined SQL Queries
 
 - `select * from customers;`
 - `select * from suppliers;`
 - `select * from products;`
-- `select contact_name, address,city,postal_code, country from customers limit 18;`
+- `select contact_name, address, city, postal_code, country from customers limit 18;`
 
-## ⏱ Page Load Time
+## ⏱ Performance Metrics
 
-Page Load time of this website in desktop is in the range of 0.4 s to 0.6s.
-we can check code spnappyness GTmetrix Grade.
+### Page Load Time
+- Desktop: 0.4s to 0.6s
+- Mobile: Optimized for various devices
 
+### Performance Reports
 ![GTmetrix Grade Report](Screenshot/snapyness.PNG)
 
 ### [web.dev Report](https://pagespeed.web.dev/)
 
 Laptop performance view
-
 ![web.dev Report](Screenshot/performance.PNG)
 
 Mobile performance view
-
 ![web.dev Report](Screenshot/mobileperformance.PNG)
 
-## 🪜 Steps I took to optimize the page load time
+## 🪜 Optimization Steps
 
-- Used Lighthouse DevTools Extension to find the performance issues and fix them using their actionable suggestion.
-- Used GitHub Pages to deploy this website for better performance and reliability.
+1. **Performance Optimization**
+   - Used Lighthouse DevTools Extension
+   - Implemented code splitting
+   - Optimized bundle size
+   - Used GitHub Pages for deployment
+
+2. **UI/UX Optimization**
+   - Implemented responsive design
+   - Added loading states
+   - Optimized table rendering
+   - Enhanced error handling
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm install`
-
-To install all the packages in package.json. This will install all the dependencies and devDependencies.
+Installs all project dependencies.
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Creates an optimized production build.
 
 ### `npm run deploy`
-
-Deploys the app to GitHub Pages. The app will be available at https://poonam17122004.github.io/editor/
+Deploys the app to GitHub Pages.
 
 ## 🚀 Project Output
 
 ![Homepage](Screenshot/main_project.PNG)
+
+## 🔄 Data Flow
+
+1. User enters SQL query or selects predefined query
+2. Query is processed and executed
+3. Results are fetched from JSON data store
+4. Results are displayed in the table component
+5. Table metadata is shown in the sidebar
+
+## 🎨 Theme Support
+
+- Dark mode for reduced eye strain
+- Light mode for better visibility
+- Theme preference persistence
+- Smooth theme transitions
+
+## 📱 Responsive Design
+
+- Optimized for desktop and mobile
+- Adaptive layout
+- Touch-friendly controls
+- Responsive table display
