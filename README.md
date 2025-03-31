@@ -171,3 +171,4 @@ Deploys the app to GitHub Pages.
 - Adaptive layout
 - Touch-friendly controls
 - Responsive table display
+
