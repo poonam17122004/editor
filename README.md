@@ -107,7 +107,7 @@ View the application flow diagram: [Flow Diagram](https://drive.google.com/file/
 - Mobile: Optimized for various devices
 
 ### Performance Reports
-![GTmetrix Grade Report](Screenshot/snapyness.PNG)
+
 
 ### [web.dev Report](https://pagespeed.web.dev/)
 
